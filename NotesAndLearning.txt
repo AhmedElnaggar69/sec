@@ -1,0 +1,11 @@
+confidentiallty - passive attacks , hacker can hear the audio but not alter it
+
+integrity - active attacks , hacker can change the audio
+
+authenticity - the audio came from the intended sender to the receiver
+
+freshness - new audio not resent or old
+
+
+Hybrid design: RSA is slow and can only encrypt small data, while AES is fast. So RSA delivers a small AES key at the start, and AES then handles the heavy audio. This is the architecture we're building.
+
