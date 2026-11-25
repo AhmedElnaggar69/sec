@@ -57,7 +57,7 @@ if __name__ == "__main__":
     data = record(secs)
     
     samples = np.frombuffer(data , dtype=dtype)
-    save_wav(data , "test.wav")
-    loaded = load_wav("test.wav")
+    save_wav(data , "message.wav")
+    loaded = load_wav("message.wav")
     
     play(loaded)
